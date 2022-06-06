@@ -42,9 +42,9 @@ html {
 .inner-column {
     border:8px solid orange;
 }
-.graphic-diptych {
-    border: 8px solid dodgerblue;
-}
+/*.graphic-diptych {
+    border: 8px solid dodgerblue;*/
+
 header, footer, main {
     border: 8px solid red;
 }
@@ -143,15 +143,6 @@ header {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
 .quote {
     background-color:#e5e7eb;
 }
@@ -170,31 +161,34 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.call-to-action {
+display: flex;
+background-color: #3882f6;
+width: 110%;
+height: 140px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 20px;
+border:4px solid #3882f6;
+border-radius: 15px;
+color: #e5e7eb;
+align-items: center;
+}
+.cta-button {
+    margin-left: 45%;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.call-to-action h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    vertical-align: top;
+}
 
 
 .info-boxes-container {
